@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.header {
+.header, .footer {
   display: flex;
   padding: 16px;
   justify-content: space-between;
 }
 
 .footer {
-  display: flex;
+  background-color: whitesmoke;
 }
 
 ul {
@@ -29,7 +29,7 @@ ul {
 }
 
 li > a {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 
